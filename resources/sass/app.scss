@@ -1,0 +1,40 @@
+//------------ Laravel defaults ----------
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import '~font-awesome/scss/font-awesome';
+
+
+// ---------- SASS 7-1 ---------- https://sass-guidelin.es/#architecture
+
+//Abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// Vendors
+// @import "../../node_modules/lightbox2/dist/css/lightbox.min.css";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+
+// Layout
+@import "layout/footer";
+@import "layout/hero";
+
+// Components
+@import "components/button";
+@import "components/nav";
+
+// Pages
+@import "pages/inventory";
+@import "pages/main";
+@import "pages/employees";
+@import "pages/landing";
+
+// Themes
